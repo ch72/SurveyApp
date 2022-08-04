@@ -1,9 +1,11 @@
 # README
 
 **Summary**
+
 This project is an individual side project that I am using to learn more about Rails and React.
 Currently, the project has a survey frontend with a couple accompanying web pages. Still in the
 early stages though.
+
 
 **Prerequisites**
 - Ruby 3.0.0+
@@ -11,7 +13,9 @@ early stages though.
 - Node Package Manager (npm) 7.1.0+
 - Yarn 1.22.10+
 
+
 **Setup**
+
 Clone and use the repository
 ```
 git@github.com:chrishong23/SurveyApp.git
@@ -23,7 +27,9 @@ bundle install
 bin/dev
 ```
 
+
 **Optional**
+
 If bin/dev (or foreman) does not work, one workaround is to run web and javascript separately...
 ```
 bin/rails server -p 3000
@@ -34,6 +40,7 @@ If you need postgresql
 brew install postgresql
 brew services restart postgresql
 ```
+
 
 **To create your own project with the same configuration as this one...**
 ```
