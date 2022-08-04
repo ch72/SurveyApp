@@ -5,7 +5,7 @@ This project is an individual side project that I am using to learn more about R
 Currently, the project has a survey frontend with a couple accompanying web pages. Still in the
 early stages though.
 
-**Prerequisites:**
+**Prerequisites**
 - Ruby 3.0.0+
 - Bundler (bundle) 2.2.11+
 - Node Package Manager (npm) 7.1.0+
