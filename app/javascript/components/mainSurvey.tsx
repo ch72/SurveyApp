@@ -11,25 +11,36 @@ function MainSurvey() {
       <div style={{display: 'flex', justifyContent: 'center'}}>
         <SurveyForm
           questions={[
-            'Which of these is the most enjoyable to you?',
-            'What would you classify yourself as?',
-            'Who is the greatest of all time?'
+            'What label best describes you?',
+            'Which area do you think is the strongest on my resume?',
+            'If I want to be prepared to be a software engineer, which area should I focus on the most?',
+            'Any general feedback on how I can improve?'
           ]}
           answers={[[
-              'Good Food', 
-              'TV Shows',
-              'Sports',
-              'Reading'
+              'Student',
+              'Teacher',
+              'Recruiter',
+              'Other'
             ],
             [
-              'Extrovert',
-              'Introvert'              
+              'Education',
+              'Experience',
+              'Projects',
+              'Skills'              
+            ],
+            [
+              'Education',
+              'Experience',
+              'Projects',
+              'Skills',
+              'Certifications'
             ],
             [
               ''
             ]
             ]}
             types={[
+              'radio',
               'radio',
               'radio',
               'textfield'
