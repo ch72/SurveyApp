@@ -12,7 +12,8 @@ function MainSurvey() {
         <SurveyForm
           questions={[
             'Which of these is the most enjoyable to you?',
-            'What would you classify yourself as?'
+            'What would you classify yourself as?',
+            'Who is the greatest of all time?'
           ]}
           answers={[[
               'Good Food', 
@@ -23,7 +24,16 @@ function MainSurvey() {
             [
               'Extrovert',
               'Introvert'              
-            ]]}
+            ],
+            [
+              ''
+            ]
+            ]}
+            types={[
+              'radio',
+              'radio',
+              'textfield'
+            ]}
           />
       </div>
     </>
