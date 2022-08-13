@@ -4,7 +4,7 @@ Kanban board for project: https://ch72.atlassian.net/jira/software/projects/SA/b
 
 **Summary**
 
-This project is an individual side project that I am using to learn more about Rails and React.
+This project is an individual side project that I am using to learn more about Ruby on Rails and ReactJS.
 Currently, the project has a survey frontend with a couple accompanying web pages. Still in the
 early stages though.
 
