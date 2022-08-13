@@ -49,5 +49,5 @@ cd ProjectTitle
 yarn add @mui/material @emotion/react @emotion/styled
 yarn add react react-dom
 ```
-- If any errors occur when creating a new project, it may be best to fix the issue then recreate it
+- If any errors occur when creating the rails project (first statement), it may be best to create a whole new project to install the rest of the dependencies
   - If you run into a permission error with bundler: https://bundler.io/doc/troubleshooting.html
