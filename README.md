@@ -1,5 +1,7 @@
 # README
 
+Kanban board for project: https://ch72.atlassian.net/jira/software/projects/SA/boards/1 (May need to request access)
+
 **Summary**
 
 This project is an individual side project that I am using to learn more about Rails and React.
