@@ -1,4 +1,4 @@
-# README
+# Survey Application for My Resume
 
 Kanban board for project: https://ch72.atlassian.net/jira/software/projects/SA/boards/1 (May need to request access)
 
