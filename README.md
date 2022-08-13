@@ -1,7 +1,7 @@
 # Survey Application for My Resume
 
 Kanban board for project: https://ch72.atlassian.net/jira/software/projects/SA/boards/1 \
-Or alternatively, see screenshot of board: https://drive.google.com/file/d/1FKKuSrd8z5d3OGutrHDWKZNvDbmGCC9f/view?usp=sharing
+Or screenshot of board: https://drive.google.com/file/d/1FKKuSrd8z5d3OGutrHDWKZNvDbmGCC9f/view?usp=sharing
 
 **Summary**
 
