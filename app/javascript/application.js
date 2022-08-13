@@ -2,5 +2,4 @@
 import "@hotwired/turbo-rails"
 import "./controllers"
 
-import "./components/mainSurvey"
-import "./components/surveyConfirm"
+import "./components/index"

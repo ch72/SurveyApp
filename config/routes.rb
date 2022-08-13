@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
   root "components#survey"
-  get "/resume", to: "components#resume"
-  get "/confirm", to: "components#confirm"
+  get "/resume", to: "components#survey"
+  get "/confirm", to: "components#survey"
 
 end

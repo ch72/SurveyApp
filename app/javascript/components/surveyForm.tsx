@@ -7,9 +7,10 @@ type FormProps = {
   questions: string[]
   answers: string[][]
   types: string[]
+  changePage: (pageUrl: string) => void
 }
 
-const SurveyForm: React.FC<FormProps> = ({questions, answers, types}) => {
+const SurveyForm: React.FC<FormProps> = ({questions, answers, types, changePage}) => {
 
   const [answered, setAnswered] = useState(Array(questions.length).fill(0));
   const [complete, setComplete] = useState(false);
@@ -54,7 +55,9 @@ const SurveyForm: React.FC<FormProps> = ({questions, answers, types}) => {
         }
       </div>
       <div style={{display: 'flex', alignContent: 'flex-end', justifyContent: "right", padding: 24}}>
-        <Button variant='contained' disabled={!complete} href='/confirm'>DONE</Button>
+        <Button variant='contained' disabled={!complete} onClick={() => changePage('/confirm')}>
+          DONE
+        </Button>
       </div>
     </Paper>
   )

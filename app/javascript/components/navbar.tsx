@@ -4,9 +4,10 @@ import { Box, Button, AppBar, Grid, Toolbar, Typography, makeStyles, createStyle
 type NavProps = {
   label: string
   button: string
+  changePage: (changeUrl: string) => void
 }
 
-const Navbar: React.FC<NavProps> = ({label, button}) => {
+const Navbar: React.FC<NavProps> = ({ label, button, changePage }) => {
 
   return (
     <AppBar position="static">
@@ -18,7 +19,7 @@ const Navbar: React.FC<NavProps> = ({label, button}) => {
             </Box>
           </Grid>
           <Grid item>
-            <Button href='/resume' variant='outlined' color='inherit' style={{padding: 10}}>
+            <Button onClick={() => changePage('/resume')} variant='outlined' color='inherit' style={{ padding: 10 }}>
               <Typography fontFamily='Roboto' color='white'>{button}</Typography>
             </Button>
           </Grid>

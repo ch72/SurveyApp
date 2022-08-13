@@ -1,15 +1,22 @@
-import { Paper } from "@mui/material";
+import { Paper, Typography } from "@mui/material";
 import React from "react";
-import { createRoot } from 'react-dom/client';
 
-function surveyConfirm() {
+function SurveyConfirm() {
 
   return (
-    <h1>Hello!</h1>
+    <div style={{
+      display: 'flex', 
+      justifyContent: 'center',
+      paddingTop: 100 
+    }}>
+      <Paper>
+          <Typography variant={'h2'} style={{ padding: 100 }}>
+            Thanks for your response!
+          </Typography>
+      </Paper>
+    </div>
   )
 
 }
 
-const container = document.getElementById('confirm');
-const root = createRoot(container!); 
-root.render(surveyConfirm());
+export default SurveyConfirm;
