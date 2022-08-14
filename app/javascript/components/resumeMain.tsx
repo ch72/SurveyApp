@@ -1,12 +1,22 @@
-import { Typography } from "@mui/material";
+import { Paper } from "@mui/material";
 import React from "react";
+import Navbar from "./navbar";
 
-function MainResume() {
+function MainResume(changePage: (changeUrl: string) => void) {
 
   return (
-    <Typography variant={'h2'}>
-      RESUME GOES HERE!
-    </Typography>
+    <>
+      <Navbar label="Resume" button="SURVEY" changePage={changePage} buttonRedirect='/survey' />
+      <Paper style={{ marginTop: 20 }}>
+        <div style={{ display: 'flex', justifyContent: 'center' }}>
+          <img
+            src={'/images/Resume.png'}
+            alt="Resume Missing :("
+            style={{ maxWidth: 1000 }}
+          />
+        </div>
+      </Paper>
+    </>
   )
 
 }

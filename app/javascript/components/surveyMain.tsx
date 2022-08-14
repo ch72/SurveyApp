@@ -2,17 +2,17 @@ import React from "react";
 import SurveyForm from "./surveyForm";
 import Navbar from "./navbar"
 
-function MainSurvey(changePage) {
+function MainSurvey(changePage: (pageUrl: string) => void) {
 
   return (
     <>
-      <Navbar label='Survey' button='RESUME' changePage={changePage} />
+      <Navbar label='Survey' button='RESUME' buttonRedirect='/' changePage={changePage} />
       <div style={{ display: 'flex', justifyContent: 'center' }}>
         <SurveyForm
           questions={[
-            'What label best describes you?',
+            'Which label best describes you?',
             'Which area do you think is the strongest on my resume?',
-            'If I want to be prepared to be a software engineer, which area should I focus on the most?',
+            'If I want to be a better software engineer, which area should I focus on the most?',
             'Any general feedback on how I can improve?'
           ]}
           answers={[[

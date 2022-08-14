@@ -5,9 +5,10 @@ type NavProps = {
   label: string
   button: string
   changePage: (changeUrl: string) => void
+  buttonRedirect: string
 }
 
-const Navbar: React.FC<NavProps> = ({ label, button, changePage }) => {
+const Navbar: React.FC<NavProps> = ({ label, button, changePage, buttonRedirect }) => {
 
   return (
     <AppBar position="static">
@@ -19,7 +20,7 @@ const Navbar: React.FC<NavProps> = ({ label, button, changePage }) => {
             </Box>
           </Grid>
           <Grid item>
-            <Button onClick={() => changePage('/resume')} variant='outlined' color='inherit' style={{ padding: 10 }}>
+            <Button onClick={() => changePage(buttonRedirect)} variant='outlined' color='inherit' style={{ padding: 10 }}>
               <Typography fontFamily='Roboto' color='white'>{button}</Typography>
             </Button>
           </Grid>

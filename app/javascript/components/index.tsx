@@ -14,8 +14,8 @@ const PageToRender: React.FC = () => {
   }
 
   if (page === '/confirm') return SurveyConfirm();
-  if (page === '/resume') return MainResume();
-  return MainSurvey(changePage);
+  if (page === '/survey') return MainSurvey(changePage);
+  return MainResume(changePage);
 
 }
 
