@@ -1,7 +1,7 @@
 # Survey Application
 
 Kanban board for project: https://ch72.atlassian.net/jira/software/projects/SA/boards/1 \
-Or alternatively, see screenshot of board: https://tinyurl.com/2fezjxzr
+Or alternatively, see up-to-date screenshot of board: https://tinyurl.com/2fezjxzr
 
 **Summary**
 
