@@ -5,7 +5,7 @@ This website is now live on Heroku! Check it out: https://mysterious-atoll-59338
 **Development Information**
 
 Kanban board for project: https://ch72.atlassian.net/jira/software/projects/SA/boards/1 \
-Or alternatively, see screenshot of board (may be outdated): https://tinyurl.com/2fezjxzr
+Or alternatively, see screenshot of board (may be outdated): https://tinyurl.com/5e8ezpjf
 
 **Summary**
 
