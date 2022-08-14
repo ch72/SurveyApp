@@ -10,16 +10,14 @@ Or alternatively, see up-to-date screenshot of board: https://tinyurl.com/2fezjx
 **Summary**
 
 This project is an individual side project that I am using to learn more about Ruby on Rails and ReactJS.
-Currently, the project has a survey frontend with a couple accompanying web pages. Still in the
-early stages though.
-
+It's a survey application that collects feedback from users on the strengths/weaknesses of my resume.
+Still in the early stages...
 
 **Prerequisites**
 - Ruby 3.0.0+
 - Bundler (bundle) 2.2.11+
 - Node Package Manager (npm) 7.1.0+
 - Yarn 1.22.10+
-
 
 **Setup**
 
@@ -34,7 +32,6 @@ bundle install
 bin/dev
 ```
 
-
 **Optional**
 
 If bin/dev (or foreman) does not work, one workaround is to run web and javascript separately...
@@ -47,7 +44,6 @@ If you need postgresql
 brew install postgresql
 brew services restart postgresql
 ```
-
 
 **To create your own project with the same configuration as this one...**
 ```
