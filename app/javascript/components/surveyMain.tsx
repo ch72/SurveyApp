@@ -6,7 +6,7 @@ function MainSurvey(changePage: (pageUrl: string) => void) {
 
   return (
     <>
-      <Navbar label='Survey' button='RESUME' buttonRedirect='/' changePage={changePage} />
+      <Navbar label='Survey' button='RESUME' buttonRedirect='/resume' changePage={changePage} />
       <div style={{ display: 'flex', justifyContent: 'center' }}>
         <SurveyForm
           questions={[
