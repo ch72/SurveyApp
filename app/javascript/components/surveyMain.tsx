@@ -11,6 +11,7 @@ function MainSurvey(changePage: (pageUrl: string) => void) {
         <SurveyForm
           questions={[
             'Which label best describes you?',
+            'Is there any additional information you would like to provide about yourself?',
             'Which area do you think is the strongest on my resume?',
             'If I want to be a better software engineer, which area should I focus on the most?',
             'Any general feedback on how I can improve?'
@@ -20,6 +21,9 @@ function MainSurvey(changePage: (pageUrl: string) => void) {
             'Teacher',
             'Recruiter',
             'Other'
+          ],
+          [
+            ''
           ],
           [
             'Education',
@@ -40,6 +44,7 @@ function MainSurvey(changePage: (pageUrl: string) => void) {
           ]}
           types={[
             'radio',
+            'textfield',
             'radio',
             'radio',
             'textfield'
